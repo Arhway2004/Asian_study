@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asian Study</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .header {
+            background-color: #333;
+            height: 100px;
+            width: 100%;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+
+        .header img {
+            width: 50px;
+            height: auto;
+            margin-right: 15px;
+        }
+
+        .header h1 {
+            margin: 0;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .card {
+            width: 200px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 10px;
+            text-align: center;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card h3 {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+
+        .card p {
+            font-size: 0.9rem;
+            color: #555;
+        }
+        /* Content Container */
+        .content-container {
+            width: 90%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .footer p {
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div>
+            <img src="assets/images/Taiwan.png" alt="Taiwan">
+            <!-- <img src="./Asian_study/assets/images/Taiwan.png" alt="Taiwan"> -->
+
+            
+        </div>
+        <div>
+            <h1>Asian Study</h1>
+        </div>
+    </div>
+    <div class="content-container">
+        <h2>Welcome to the Asian Study Topics Page</h2>
+        <p>This page presents an overview of the topics related to Asian countries, cultures, and geography. You can navigate through each topic using the menu above to explore videos, pictures, and text about the diverse cultures, traditions, and history of Asia.</p>
+    </div>
+
+
+    <div class="card-container">
+        <!-- Card 1 - Asian Country -->
+        <div class="card" onclick="window.location.href='detail1.html'">
+            <img src="assets/images/Asian Country.jpeg" alt="Asian Country">
+            <div class="card-content">
+                <h3>Asian Country</h3>
+                <p>Explore the diverse countries in Taiwan.</p>
+            </div>
+        </div>
+
+        <!-- Card 2 - Health and Wellness -->
+        <div class="card" onclick="window.location.href='detail2.html'">
+            <img src="assets/images/Health and Wellness.jpg" alt="Health and Wellness">
+            <div class="card-content">
+                <h3>Health and Wellness</h3>
+                <p>Discover health practices across Taiwan.</p>
+            </div>
+        </div>
+
+        <!-- Card 3 - Political Leadership -->
+        <div class="card" onclick="window.location.href='detail3.html'">
+            <img src="assets/images/Political Leadership.jpeg" alt="Political Leadership">
+            <div class="card-content">
+                <h3>Political Leadership</h3>
+                <p>Learn about influential leaders in Taiwan.</p>
+            </div>
+        </div>
+
+        <!-- Card 4 - Personality -->
+        <div class="card" onclick="window.location.href='detail4.html'">
+            <img src="assets/images/Personality.jpeg" alt="Personality">
+            <div class="card-content">
+                <h3>Personality</h3>
+                <p>Explore the diverse personalities in Taiwan.</p>
+            </div>
+        </div>
+
+        <!-- Card 5 - Cultural Festivals -->
+        <div class="card" onclick="window.location.href='detail5.html'">
+            <img src="assets/images/Cultural Festivals.jpeg" alt="Cultural Festivals">
+            <div class="card-content">
+                <h3>Cultural Festivals</h3>
+                <p>Celebrate the cultural festivals of Taiwan.</p>
+            </div>
+        </div>
+
+        <!-- Card 6 - Local Entertainment -->
+        <div class="card" onclick="window.location.href='detail6.html'">
+            <img src="assets/images/ Local Entertainment.jpeg" alt="Local Entertainment">
+            <div class="card-content">
+                <h3>Local Entertainment</h3>
+                <p>Discover the entertainment scene in Taiwan.</p>
+            </div>
+        </div>
+
+        <!-- Card 7 - Languages and Dialects -->
+        <div class="card" onclick="window.location.href='detail7.html'">
+            <img src="assets/images/Languages and Dialects .jpeg" alt="Languages and Dialects">
+            <div class="card-content">
+                <h3>Languages and Dialects</h3>
+                <p>Explore the languages spoken across Taiwan.</p>
+            </div>
+        </div>
+
+        <!-- Card 8 - Traditional Sports -->
+        <div class="card" onclick="window.location.href='detail8.html'">
+            <img src="assets/images/Traditional Sports.jpeg" alt="Traditional Sports">
+            <div class="card-content">
+                <h3>Traditional Sports</h3>
+                <p>Learn about traditional sports in Taiwan.</p>
+            </div>
+        </div>
+
+        <!-- Card 9 - Asian Beauty -->
+        <div class="card" onclick="window.location.href='detail9.html'">
+            <img src="assets/images/ Asian Beauty.jpeg" alt="Asian Beauty">
+            <div class="card-content">
+                <h3>Asian Beauty</h3>
+                <p>Discover the beauty standards across Taiwan.</p>
+            </div>
+        </div>
+
+        <!-- Card 10 - Population -->
+        <div class="card" onclick="window.location.href='detail10.html'">
+            <img src="assets/images/Population.jpeg" alt="Population">
+            <div class="card-content">
+                <h3>Population</h3>
+                <p>Explore the population dynamics in Taiwan.</p>
+            </div>
+        </div>
+
+        <!-- Card 11 - Communication -->
+        <div class="card" onclick="window.location.href='detail11.html'">
+            <img src="assets/images/communication.jpeg" alt="Communication">
+            <div class="card-content">
+                <h3>Communication</h3>
+                <p>Learn about communication methods in Taiwan.</p>
+            </div>
+        </div>
+
+        <!-- Card 12 - Environment -->
+        <div class="card" onclick="window.location.href='detail12.html'">
+            <img src="assets/images/environment.jpeg" alt="Environment">
+            <div class="card-content">
+                <h3>Environment</h3>
+                <p>Understand the environmental issues in Taiwan.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer" style="color: white;">
+        <p>&copy; 2025 Asian Study. All Rights Reserved.</p>
+    </div>
+    
+
+</body>
+</html>
